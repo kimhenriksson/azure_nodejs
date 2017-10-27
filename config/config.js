@@ -6,7 +6,7 @@ const config = {
   development: {
     root: rootPath,
     app: {
-      name: 'ps-express'
+      name: 'ps-express (dev)'
     },
     port: process.env.PORT || 4500,
   },
@@ -14,7 +14,7 @@ const config = {
   test: {
     root: rootPath,
     app: {
-      name: 'ps-express'
+      name: 'ps-express (test)'
     },
     port: process.env.PORT || 4500,
   },
@@ -22,7 +22,7 @@ const config = {
   production: {
     root: rootPath,
     app: {
-      name: 'ps-express'
+      name: 'ps-express (prod)'
     },
     port: process.env.PORT || 4500,
   }
