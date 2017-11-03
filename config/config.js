@@ -22,7 +22,7 @@ const config = {
   production: {
     root: rootPath,
     app: {
-      name: 'ps-express (prod)'
+      name: 'ps-express (production)'
     },
     port: process.env.PORT || 4500,
   }
